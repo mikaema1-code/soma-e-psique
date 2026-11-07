@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#32102f">
-  <title>Soma e Psiquê | Saboaria Artesanal</title>
+  <meta name="theme-color" content="#210d25">
+  <title>BLACK FRIDAY | Soma e Psiquê - Saboaria Artesanal</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     body{font-family:'Montserrat',sans-serif;background:#fffaf8}
     h1,h2,h3,.elegant{font-family:'Cormorant Garamond',serif}
-    .purple-gradient{background:linear-gradient(135deg,#210d25,#57234f,#35143a)}
+    .purple-gradient{background:linear-gradient(135deg,#160719,#3d1438,#210d25)}
     .gold{color:#d6b16d}
     .cta{background:linear-gradient(135deg,#d9b875,#f0d69c);color:#35142f;transition:.3s}
     .cta:hover{transform:translateY(-2px);box-shadow:0 8px 20px #d6b16d59}
@@ -19,9 +19,16 @@
     html{scroll-behavior:smooth}
     .whatsapp-btn{transition:transform .3s,box-shadow .3s}
     .whatsapp-btn:hover{transform:scale(1.1);box-shadow:0 10px 25px rgba(37,211,102,0.4)}
+    .badge-blackfriday{background:#e11d48;color:#ffffff;font-weight:700;letter-spacing:1px}
   </style>
 </head>
 <body class="text-gray-800">
+
+  <!-- BANNER TOPO BLACK FRIDAY -->
+  <div class="bg-gradient-to-r from-red-600 via-rose-700 to-red-600 text-white text-center py-2.5 px-4 text-xs font-bold uppercase tracking-widest flex items-center justify-center gap-2 shadow-md">
+    <span>🔥 BLACK FRIDAY SOMA E PSIQUÊ — SITE TODO EM PROMOÇÃO! ATÉ 40% OFF 🔥</span>
+  </div>
+
   <header class="purple-gradient text-white sticky top-0 z-40 shadow-lg">
     <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
       <div>
@@ -30,57 +37,69 @@
       </div>
       <div class="hidden lg:flex gap-6 text-sm items-center">
         <a href="#inicio" class="hover:text-yellow-300">Início</a>
-        <a href="#produtos" class="hover:text-yellow-300">Produtos</a>
-        <a href="#cupom" class="hover:text-yellow-300 gold font-medium">Ganhar Cupom</a>
+        <a href="#produtos" class="hover:text-yellow-300 font-bold text-rose-300">Ofertas Black Friday</a>
+        <a href="#cupom" class="hover:text-yellow-300 gold font-medium">Cupom Extra</a>
         <a href="#sobre" class="hover:text-yellow-300">Nossa Essência</a>
         <a href="#trabalhe-conosco" class="hover:text-yellow-300">Trabalhe Conosco</a>
-        <a href="https://wa.me/5515991833298?text=Olá! Preciso de atendimento da equipe Soma e Psiquê." target="_blank" rel="noopener noreferrer" class="hover:text-yellow-300 border border-purple-300 px-3 py-1 rounded-full text-xs">Atendimento</a>
+        <a href="https://wa.me/5515991833298?text=Olá! Gostaria de tirar dúvidas sobre as ofertas de Black Friday da Soma e Psiquê." target="_blank" rel="noopener noreferrer" class="hover:text-yellow-300 border border-purple-300 px-3 py-1 rounded-full text-xs">Atendimento</a>
       </div>
-      <a href="#produtos" class="cta px-5 py-3 rounded-full text-xs font-bold">CONHEÇA A LINHA</a>
+      <a href="#produtos" class="cta px-5 py-3 rounded-full text-xs font-bold uppercase tracking-wider">VER PROMOÇÕES</a>
     </nav>
   </header>
 
-  <!-- HERO SECTION -->
-  <section id="inicio" class="purple-gradient text-white">
+  <!-- HERO SECTION BLACK FRIDAY -->
+  <section id="inicio" class="purple-gradient text-white relative overflow-hidden">
     <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6 py-16 md:py-24">
       <div>
-        <span class="gold uppercase tracking-[4px] text-xs">Uma experiência de cuidado</span>
-        <h1 class="text-5xl md:text-7xl leading-tight mt-5">Sua beleza merece um ritual especial.</h1>
-        <p class="text-purple-100 mt-6 leading-8">Descubra a delicadeza da Soma e Psiquê. Uma linha inspirada na natureza, criada para transformar seus momentos de autocuidado em experiências especiais.</p>
-        <div class="flex flex-wrap gap-4 mt-8 text-sm"><span>✦ Cuidado diário</span><span>✦ Fragrância delicada</span><span>✦ Beleza artesanal</span></div>
-        <a href="#produtos" class="cta inline-block mt-9 px-9 py-4 rounded-full font-bold text-sm">DESCUBRA NOSSOS PRODUTOS</a>
+        <span class="badge-blackfriday px-4 py-1.5 rounded-full text-xs inline-block mb-4">ESPECIAL BLACK FRIDAY</span>
+        <h1 class="text-5xl md:text-7xl leading-tight mt-2">O seu ritual de autocuidado com descontos imperdíveis.</h1>
+        <p class="text-purple-100 mt-6 leading-8">Toda a linha artesanal Soma e Psiquê está em promoção. Aproveite preços exclusivos de Black Friday para perfumar e renovar a sua rotina com ingredientes naturais.</p>
+        <div class="flex flex-wrap gap-4 mt-8 text-sm text-yellow-200 font-medium">
+          <span>✦ Envio Rápido</span>
+          <span>✦ Produtos 100% Artesanais</span>
+          <span>✦ Descontos Exclusivos</span>
+        </div>
+        <a href="#produtos" class="cta inline-block mt-9 px-9 py-4 rounded-full font-bold text-sm uppercase">APROVEITAR OFERTAS DA BLACK FRIDAY</a>
       </div>
-      <div><img src="perfume.png" alt="Perfume Soma e Psiquê" class="w-full h-[450px] object-cover rounded-2xl shadow-2xl"></div>
+      <div class="relative">
+        <div class="absolute -top-4 -right-4 bg-red-600 text-white font-extrabold rounded-full w-24 h-24 flex flex-col items-center justify-center shadow-xl z-10 animate-bounce">
+          <span class="text-xs">ATÉ</span>
+          <span class="text-2xl leading-none">40%</span>
+          <span class="text-xs">OFF</span>
+        </div>
+        <img src="perfume.png" alt="Perfume Soma e Psiquê Black Friday" class="w-full h-[450px] object-cover rounded-2xl shadow-2xl border-2 border-rose-500/30">
+      </div>
     </div>
   </section>
 
-  <!-- CADASTRO PARA CUPOM DE DESCONTO -->
-  <section id="cupom" class="bg-gradient-to-r from-purple-900 via-purple-950 to-purple-900 text-white py-16">
+  <!-- CADASTRO PARA CUPOM DA BLACK FRIDAY -->
+  <section id="cupom" class="bg-gradient-to-r from-purple-950 via-rose-950 to-purple-950 text-white py-16 border-y border-rose-900/50">
     <div class="max-w-4xl mx-auto px-6 text-center">
-      <span class="gold uppercase tracking-[4px] text-xs font-semibold">Oferta Exclusiva</span>
-      <h2 class="text-3xl md:text-4xl mt-2 elegant gold">Cadastre-se e ganhe seu Cupom de Desconto</h2>
-      <p class="text-purple-200 mt-3 text-sm max-w-xl mx-auto">Preencha seus dados para receber um cupom VIP direto no seu WhatsApp e aproveitar na sua primeira compra.</p>
+      <span class="gold uppercase tracking-[4px] text-xs font-semibold">Cupom Secreto</span>
+      <h2 class="text-3xl md:text-4xl mt-2 elegant gold">Cadastre-se e ganhe +10% OFF EXTRA na Black Friday</h2>
+      <p class="text-purple-200 mt-3 text-sm max-w-xl mx-auto">Quer acumular mais desconto no site todo? Preencha seu nome e WhatsApp para receber instantaneamente o seu Cupom VIP de Black Friday.</p>
       
       <form onsubmit="enviarCadastroCupom(event)" class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-800">
         <input type="text" id="cupom-nome" placeholder="Seu Nome Completo" required class="px-5 py-3 rounded-full text-sm outline-none focus:ring-2 focus:ring-yellow-400">
         <input type="tel" id="cupom-whats" placeholder="Seu WhatsApp (com DDD)" required class="px-5 py-3 rounded-full text-sm outline-none focus:ring-2 focus:ring-yellow-400">
-        <button type="submit" class="cta font-bold py-3 px-6 rounded-full text-xs tracking-wider uppercase">QUERO MEU CUPOM</button>
+        <button type="submit" class="cta font-bold py-3 px-6 rounded-full text-xs tracking-wider uppercase">RESGATAR CUPOM EXTRA</button>
       </form>
     </div>
   </section>
 
-  <!-- PRODUTOS -->
+  <!-- VITRINE DE PRODUTOS EM PROMOÇÃO -->
   <section id="produtos" class="max-w-7xl mx-auto px-6 py-20">
     <div class="text-center max-w-2xl mx-auto">
-      <span class="gold uppercase tracking-[4px] text-xs font-semibold">Linha Exclusiva</span>
-      <h2 class="text-4xl md:text-5xl mt-3">Nossas Criações</h2>
-      <p class="text-gray-600 mt-4 leading-7">Cada produto é elaborado artesanalmente, combinando ingredientes selecionados e fragrâncias que envolvem os sentidos.</p>
+      <span class="badge-blackfriday px-4 py-1 rounded-full text-xs">OFERTAS DE BLACK FRIDAY</span>
+      <h2 class="text-4xl md:text-5xl mt-4">Site Todo em Promoção</h2>
+      <p class="text-gray-600 mt-4 leading-7">Garantimos a qualidade artesanal de sempre com os menores preços do ano. Escolha os seus favoritos antes que esgotem!</p>
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14">
       
       <!-- PRODUTO 1: Perfume -->
-      <div class="product-card bg-white rounded-3xl p-6 border border-purple-50 flex flex-col justify-between">
+      <div class="product-card bg-white rounded-3xl p-6 border border-rose-100 flex flex-col justify-between relative shadow-sm">
+        <span class="absolute top-4 right-4 badge-blackfriday px-3 py-1 rounded-full text-xs">35% OFF</span>
         <div>
           <div class="w-full h-64 bg-purple-100 rounded-2xl mb-6 overflow-hidden">
             <img src="perfume.png" alt="Perfume Verbena e Extrato de Aveia" class="w-full h-full object-cover">
@@ -90,13 +109,17 @@
           <p class="text-gray-600 text-sm mt-3 leading-6">Fragrância marcante e delicada (100 ml), com notas de verbena e extrato de aveia para perfumar e envolver a pele com sofisticação.</p>
         </div>
         <div class="mt-6 pt-4 border-t border-purple-50 flex items-center justify-between">
-          <span class="text-xs text-purple-700 font-medium">100 ml</span>
-          <a href="https://wa.me/5515991833298?text=Olá! Gostaria de encomendar o Perfume Verbena e Extrato de Aveia." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2 rounded-full text-xs font-bold">ENCOMENDAR</a>
+          <div>
+            <span class="text-xs text-gray-400 line-through">De R$ 139,90</span>
+            <p class="text-lg font-bold text-rose-600">Por R$ 89,90</p>
+          </div>
+          <a href="https://wa.me/5515991833298?text=Olá! Quero aproveitar a oferta de Black Friday no Perfume Verbena e Extrato de Aveia por R$ 89,90." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2.5 rounded-full text-xs font-bold uppercase">COMPRAR AGORA</a>
         </div>
       </div>
 
       <!-- PRODUTO 2: Hidratante Corporal -->
-      <div class="product-card bg-white rounded-3xl p-6 border border-purple-50 flex flex-col justify-between">
+      <div class="product-card bg-white rounded-3xl p-6 border border-rose-100 flex flex-col justify-between relative shadow-sm">
+        <span class="absolute top-4 right-4 badge-blackfriday px-3 py-1 rounded-full text-xs">40% OFF</span>
         <div>
           <div class="w-full h-64 bg-purple-100 rounded-2xl mb-6 overflow-hidden">
             <img src="creme hidrtante.png" alt="Hidratante Corporal" class="w-full h-full object-cover">
@@ -106,13 +129,17 @@
           <p class="text-gray-600 text-sm mt-3 leading-6">Fórmula nutritiva (250 g) com verbena e extrato de aveia, proporcionando um toque aveludado e hidratação prolongada à pele.</p>
         </div>
         <div class="mt-6 pt-4 border-t border-purple-50 flex items-center justify-between">
-          <span class="text-xs text-purple-700 font-medium">250 g</span>
-          <a href="https://wa.me/5515991833298?text=Olá! Gostaria de encomendar o Hidratante Corporal." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2 rounded-full text-xs font-bold">ENCOMENDAR</a>
+          <div>
+            <span class="text-xs text-gray-400 line-through">De R$ 79,90</span>
+            <p class="text-lg font-bold text-rose-600">Por R$ 47,90</p>
+          </div>
+          <a href="https://wa.me/5515991833298?text=Olá! Quero aproveitar a oferta de Black Friday no Hidratante Corporal por R$ 47,90." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2.5 rounded-full text-xs font-bold uppercase">COMPRAR AGORA</a>
         </div>
       </div>
 
       <!-- PRODUTO 3: Sais de Banho -->
-      <div class="product-card bg-white rounded-3xl p-6 border border-purple-50 flex flex-col justify-between">
+      <div class="product-card bg-white rounded-3xl p-6 border border-rose-100 flex flex-col justify-between relative shadow-sm">
+        <span class="absolute top-4 right-4 badge-blackfriday px-3 py-1 rounded-full text-xs">30% OFF</span>
         <div>
           <div class="w-full h-64 bg-purple-100 rounded-2xl mb-6 overflow-hidden">
             <img src="sais.png" alt="Sais de Banho Lavanda" class="w-full h-full object-cover">
@@ -122,13 +149,17 @@
           <p class="text-gray-600 text-sm mt-3 leading-6">Perfeitos para banhos de imersão ou escalda-pés (250 g). Promovem relaxamento profundo, aliviam o cansaço e equilibram as energias.</p>
         </div>
         <div class="mt-6 pt-4 border-t border-purple-50 flex items-center justify-between">
-          <span class="text-xs text-purple-700 font-medium">250 g</span>
-          <a href="https://wa.me/5515991833298?text=Olá! Gostaria de encomendar os Sais de Banho de Lavanda." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2 rounded-full text-xs font-bold">ENCOMENDAR</a>
+          <div>
+            <span class="text-xs text-gray-400 line-through">De R$ 59,90</span>
+            <p class="text-lg font-bold text-rose-600">Por R$ 41,90</p>
+          </div>
+          <a href="https://wa.me/5515991833298?text=Olá! Quero aproveitar a oferta de Black Friday nos Sais de Banho Lavanda por R$ 41,90." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2.5 rounded-full text-xs font-bold uppercase">COMPRAR AGORA</a>
         </div>
       </div>
 
       <!-- PRODUTO 4: Óleo Corporal -->
-      <div class="product-card bg-white rounded-3xl p-6 border border-purple-50 flex flex-col justify-between">
+      <div class="product-card bg-white rounded-3xl p-6 border border-rose-100 flex flex-col justify-between relative shadow-sm">
+        <span class="absolute top-4 right-4 badge-blackfriday px-3 py-1 rounded-full text-xs">35% OFF</span>
         <div>
           <div class="w-full h-64 bg-purple-100 rounded-2xl mb-6 overflow-hidden">
             <img src="oleo.png" alt="Óleo Corporal Lavanda" class="w-full h-full object-cover">
@@ -138,13 +169,17 @@
           <p class="text-gray-600 text-sm mt-3 leading-6">Óleo nutritivo (100 ml) formulado para hidratar, perfumar e cuidar da pele após o banho, deixando um toque macio e acetinado.</p>
         </div>
         <div class="mt-6 pt-4 border-t border-purple-50 flex items-center justify-between">
-          <span class="text-xs text-purple-700 font-medium">100 ml</span>
-          <a href="https://wa.me/5515991833298?text=Olá! Gostaria de encomendar o Óleo Corporal de Lavanda." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2 rounded-full text-xs font-bold">ENCOMENDAR</a>
+          <div>
+            <span class="text-xs text-gray-400 line-through">De R$ 69,90</span>
+            <p class="text-lg font-bold text-rose-600">Por R$ 44,90</p>
+          </div>
+          <a href="https://wa.me/5515991833298?text=Olá! Quero aproveitar a oferta de Black Friday no Óleo Corporal de Lavanda por R$ 44,90." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2.5 rounded-full text-xs font-bold uppercase">COMPRAR AGORA</a>
         </div>
       </div>
 
       <!-- PRODUTO 5: Body Splash -->
-      <div class="product-card bg-white rounded-3xl p-6 border border-purple-50 flex flex-col justify-between">
+      <div class="product-card bg-white rounded-3xl p-6 border border-rose-100 flex flex-col justify-between relative shadow-sm">
+        <span class="absolute top-4 right-4 badge-blackfriday px-3 py-1 rounded-full text-xs">30% OFF</span>
         <div>
           <div class="w-full h-64 bg-purple-100 rounded-2xl mb-6 overflow-hidden">
             <img src="sabonete liq.png" alt="Body Splash Verbena e Aveia" class="w-full h-full object-cover">
@@ -154,8 +189,11 @@
           <p class="text-gray-600 text-sm mt-3 leading-6">Perfume corporal refrescante (120 ml) com verbena e extrato de aveia. Ideal para prolongar a sensação de banho tomado ao longo do dia.</p>
         </div>
         <div class="mt-6 pt-4 border-t border-purple-50 flex items-center justify-between">
-          <span class="text-xs text-purple-700 font-medium">120 ml</span>
-          <a href="https://wa.me/5515991833298?text=Olá! Gostaria de encomendar o Body Splash." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2 rounded-full text-xs font-bold">ENCOMENDAR</a>
+          <div>
+            <span class="text-xs text-gray-400 line-through">De R$ 64,90</span>
+            <p class="text-lg font-bold text-rose-600">Por R$ 44,90</p>
+          </div>
+          <a href="https://wa.me/5515991833298?text=Olá! Quero aproveitar a oferta de Black Friday no Body Splash por R$ 44,90." target="_blank" rel="noopener noreferrer" class="cta px-4 py-2.5 rounded-full text-xs font-bold uppercase">COMPRAR AGORA</a>
         </div>
       </div>
 
@@ -203,7 +241,7 @@
       <p class="text-gray-600 mt-4 max-w-2xl mx-auto leading-7">Quer fazer parte da família Soma e Psiquê ou se tornar uma revendedora parceira dos nossos produtos artesanais? Envie suas informações diretamente para o nosso setor de contratação e parcerias.</p>
       
       <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
-        <a href="https://wa.me/5515991833298?text=Olá! Tenho interesse em trabalhar/revender os produtos da Soma e Psiquê." target="_blank" rel="noopener noreferrer" class="cta px-8 py-4 rounded-full font-bold text-xs inline-flex items-center justify-center gap-2">
+        <a href="https://wa.me/5515991833298?text=Olá! Tenho interesse em trabalhar/revender os produtos da Soma e Psiquê." target="_blank" rel="noopener noreferrer" class="cta px-8 py-4 rounded-full font-bold text-xs inline-flex items-center justify-center gap-2 uppercase">
           <span>ENVIAR SEU CURRÍCULO / PROPOSTA VIA WHATSAPP</span>
         </a>
       </div>
@@ -215,7 +253,7 @@
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
         <h3 class="text-xl font-bold text-purple-950">Atendimento ao Cliente</h3>
-        <p class="text-sm text-gray-600 mt-2 leading-6">Dúvidas sobre pedidos, envios, ingredientes ou suporte pós-venda? Fale diretamente conosco.</p>
+        <p class="text-sm text-gray-600 mt-2 leading-6">Dúvidas sobre os pedidos de Black Friday, envios ou suporte pós-venda? Fale diretamente conosco.</p>
       </div>
       <div>
         <h4 class="text-sm font-semibold text-purple-900 uppercase tracking-wider">Contato Direto</h4>
@@ -223,7 +261,7 @@
         <p class="text-sm text-gray-700">Horário: Segunda a Sexta, das 8h às 18h</p>
       </div>
       <div class="flex items-center justify-center md:justify-end">
-        <a href="https://wa.me/5515991833298?text=Olá! Preciso de Suporte / Atendimento ao Cliente." target="_blank" rel="noopener noreferrer" class="bg-purple-900 text-white hover:bg-purple-800 px-6 py-3 rounded-full text-xs font-bold transition">FALAR COM ATENDENTE</a>
+        <a href="https://wa.me/5515991833298?text=Olá! Preciso de Suporte / Atendimento ao Cliente sobre minhas compras de Black Friday." target="_blank" rel="noopener noreferrer" class="bg-purple-900 text-white hover:bg-purple-800 px-6 py-3 rounded-full text-xs font-bold transition uppercase">FALAR COM ATENDENTE</a>
       </div>
     </div>
   </section>
@@ -235,16 +273,16 @@
       <p class="text-xs tracking-[4px] text-purple-300">SABOARIA ARTESANAL</p>
       <div class="flex flex-wrap justify-center gap-6 text-xs text-purple-200 py-2">
         <a href="#trabalhe-conosco" class="hover:underline">Trabalhe Conosco</a>
-        <a href="#cupom" class="hover:underline">Cadastre-se & Cupom</a>
+        <a href="#cupom" class="hover:underline">Cadastre-se & Cupom Extra</a>
         <a href="https://wa.me/5515991833298?text=Atendimento ao cliente Soma e Psiquê" target="_blank" rel="noopener noreferrer" class="hover:underline">Atendimento ao Cliente</a>
       </div>
-      <p class="text-sm text-purple-200">Entre em contato para encomendas e personalizações exclusivas pelo <strong>(15) 99183-3298</strong>.</p>
+      <p class="text-sm text-purple-200">Aproveite as ofertas de Black Friday no WhatsApp <strong>(15) 99183-3298</strong>.</p>
       <p class="text-xs text-purple-400 pt-6">© 2026 Soma e Psiquê. Todos os direitos reservados.</p>
     </div>
   </footer>
 
-  <!-- Botão Flutuante do WhatsApp -->
-  <a href="https://wa.me/5515991833298?text=Olá! Vim pelo site da Soma e Psiquê." target="_blank" rel="noopener noreferrer" class="whatsapp-btn fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full flex items-center justify-center shadow-lg" aria-label="Fale conosco pelo WhatsApp">
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <a href="https://wa.me/5515991833298?text=Olá! Vim pelo site da Soma e Psiquê e quero aproveitar as promoções de Black Friday!" target="_blank" rel="noopener noreferrer" class="whatsapp-btn fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full flex items-center justify-center shadow-lg" aria-label="Fale conosco pelo WhatsApp">
     <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
       <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
     </svg>
@@ -255,7 +293,7 @@
       event.preventDefault();
       const nome = document.getElementById('cupom-nome').value;
       const whats = document.getElementById('cupom-whats').value;
-      const mensagem = `Olá! Meu nome é ${encodeURIComponent(nome)} (${encodeURIComponent(whats)}). Acabei de me cadastrar no site para receber o meu Cupom de Desconto!`;
+      const mensagem = `Olá! Meu nome é ${encodeURIComponent(nome)} (${encodeURIComponent(whats)}). Me cadastrei no site para receber o Cupom Extra de +10% OFF da Black Friday!`;
       window.open(`https://wa.me/5515991833298?text=${mensagem}`, '_blank');
     }
   </script>
